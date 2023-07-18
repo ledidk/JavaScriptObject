@@ -1,4 +1,21 @@
-/* Add New Object Form */
+.card {
+    border-bottom: 1px solid black;
+    padding: 10px;
+  }
+  
+  hr {
+    border-top: 1px solid black;
+  }
+  
+  input[type="text"],
+  input[type="email"] {
+    margin-bottom: 10px;
+  }
+  
+  input[type="submit"] {
+    margin-top: 10px;
+  }
+  /* Add New Object Form */
 form#addForm {
     display: none;
     margin-top: 20px;
