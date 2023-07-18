@@ -1,18 +1,34 @@
-.card {
-    border-bottom: 1px solid black;
-    padding: 10px;
+/* Add New Object Form */
+form#addForm {
+    display: none;
+    margin-top: 20px;
   }
   
-  hr {
-    border-top: 1px solid black;
-  }
-  
-  input[type="text"],
-  input[type="email"] {
+  form#addForm h2 {
     margin-bottom: 10px;
   }
   
-  input[type="submit"] {
-    margin-top: 10px;
+  form#addForm label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  form#addForm input[type="text"],
+  form#addForm input[type="email"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  form#addForm input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  form#addForm input[type="submit"]:hover {
+    background-color: #45a049;
   }
   
