@@ -66,3 +66,5 @@ form#addForm {
   form#addForm input[type="submit"]:hover {
     background-color: #45a049;
   }
+input{
+    margin-left:25px;}
