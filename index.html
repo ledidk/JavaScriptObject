@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>CST-8209 Midterm Assessment -21F</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>First Last - Class/Object Name</h1>
+  <p style="color:red;">Array Data entered as is</p>
+
+  <input type="button" value="Sort Name Ascending" onClick="ascending()">
+  <input type="button" value="Sort Name Descending" onClick="descending()">
+  <p>
+  <input type="text" id="filterInput" value="">
+  <input type="button" value="Filter by Name" onClick="filterByName()">
+  <input type="button" value="Clear Filter" onClick="clearFilter()">
+  <p>
+
+  <p id="result" style="color:red;">Array Data after Filtering and Sorting</p>
+
+  <div id="list"></div>
+  <br/><br/>
+  <button id="addNewBtn" onClick="toggleAddForm()">Add New</button>
+
+  <form id="addForm" style="display: none;">
+   <h2>Add New Object</h2>
+    <label for="name">Name:</label>
+    <input type="text" id="name" required>
+    <label for="email">Email:</label>
+    <input type="email" id="email" required>
+    <label for="address">Address:</label>
+    <input type="text" id="address" required>
+    <label for="phone">Phone:</label>
+    <input type="text" id="phone" required>
+    <input type="submit" value="Add Object">
+  </form>
+
+  <script src="object.js"></script>
+</body>
+</html>
